@@ -1,0 +1,11 @@
+{
+    "name": "My Space",
+    // The dockerfile will be at te root of the project
+    "build": {"dockerfile": "Dockerfile"},
+    // Your code path from the .devcontainer directory
+    "forwardPorts": [8006, 3389],
+    // Script to run to bootstrap the app when the space is created
+    "postCreateCommand": ". ../path_to_setup_script.sh",
+    
+  
+}
